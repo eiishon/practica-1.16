@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios </title>
+</head>
+<body>
+    <form action ="ejemplo.php" method ="get">
+        <fieldset>
+            <p>Tratamiento: * 
+             <input type ="radio" name ="trat" value = "sr" required> Sr.
+              <input type="radio" name ="trat" value ="sra" required> Sra.  
+            
+             Nombre: *
+            <input type="text" name="nombre" size="30" required>  
+            
+             Apellido 1: *
+                <input type="text" name = "Apellido1" size ="30" required>
+             Apellido 2: *
+                <input type="text" name = "apellido2" size = "30" required>
+             Tipo Doc: *
+                <select name ="tipodoc" required>
+                    <option> ... </option>
+                    <option> DNI </option>
+                    <option> NIE </option>
+                    <option> TIE </option>
+                </select>
+              Nº Doc: *
+              <input type="text" name="numerodoc" size="30" required>  
+              Fecha de nacimiento: *
+              <input type="date" name="fechanac" required>
+              País de nacimiento: *
+              <select name ="paisnac" required>
+                    <option> ... </option>
+                    <option> ESPAÑA </option>
+                    <option> FRANCIA </option>
+                    <option> PORTUGAL </option>
+                    <option> ITALIA </option>
+                </select>
+                Nacionalidad: *
+                <select name = "nac" required>
+                    <option> ... </option>
+                    <option> ESPAÑA </option>
+                    <option> FRANCIA </option>
+                    <option> PORTUGAL </option>
+                    <option> ITALIA </option>
+                </select>
+                Segunda nacionalidad:
+                <select name ="nac2">
+                    <option> ... </option>
+                    <option> ESPAÑA </option>
+                    <option> FRANCIA </option>
+                    <option> PORTUGAL </option>
+                    <option> ITALIA </option>  
+                </select>
+                País residencia fiscal: *
+                <select name = "Parefis" required>
+                    <option> ... </option>
+                    <option> ESPAÑA </option>
+                    <option> FRANCIA </option>
+                    <option> PORTUGAL </option>
+                    <option> ITALIA </option>
+                </select>
+                Trabajo: *
+                <select name ="trabajo" required>
+                    <option> ... </option>
+                    <option> EMPRESARIO </option>
+                    <option> FUNCIONARIO </option>
+                    <option> ASALARIADO </option>
+                    <option> PARADO </option>
+                </select>
+                Tipo de Actividad: *
+                <select name ="tipactividad" required>
+                    <option> ... </option>
+                    <option> TAREAS HOGAR </option>
+                    <option> ESTUDIANTE </option>
+                    <option> DESEMPLEADO </option>
+                    <option> JUBILADO </option>
+                    <option> PENSIONISTA </option>
+                </select>
+                Sector profesional: *
+                <select name ="sectprof" required>
+                    <option> ... </option>
+                    <option> 
+            </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
