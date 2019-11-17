@@ -30,7 +30,7 @@
               Nº Doc: *
               <input type="text" name="numerodoc" size="30" required>  
               Fecha de nacimiento: *
-              <input type="date" name="fechanac" required>
+              <input type="date" name="fechanac" size ="30" required>
               País de nacimiento: *
               <select name ="paisnac" required>
                     <option> ... </option>
@@ -83,8 +83,65 @@
                 Sector profesional: *
                 <select name ="sectprof" required>
                     <option> ... </option>
-                    <option> 
+                    <option> NO TRABAJA </option>
+                    <option> BANCA </option>
+                    <option> CONSTRUCCIÓN </option>
+                    <option> ENERGÍA </option>
+                    <option> INDUSTRIA </option>
+                    <option> RECURSOS HUMANOS </option>
+                    <option> SERVICIOS </option>
+                </select>
+                Empresa: *
+                <input type="text" name="empresa" size ="30" required>
+                Propósito de la cuenta: *
+                <select name ="propcuenta" required>
+                    <option> ... </option>
+                    <option> AHORROS </option>
+                    <option> PENSIONES </option>
+                    <option> CUENTA NORMAL </option>
+                </select>
+                Origen de sus ahorros: *
+                <select name ="origahorros" required>
+                    <option> ... </option>
+                    <option> TRABAJO </option>
+                    <option> HERENCIA </option>
+                </select>
             </p>
+            <p background-color="grey">
+                Tipo de vía: *
+                <select name="tipovia" required>
+                    <option> ... </option>
+                    <option> CALLE </option>
+                    <option> AVENIDA </option>
+                    <option> PLAZA </option>
+                </select>
+                Dirección: *
+                <input type="text" name ="direccion" size ="30" required>
+                Número: * 
+                <input type="number" name ="numero" required>
+                Piso:
+                <input type ="number" name ="piso">
+                Urb. Pol. Otros:
+                <input type="text" name ="urbpolotr">
+                Localidad: *
+                <input type="text" name ="localidad" required>
+                Provincia: *
+                <select name ="provincia">
+                    <option> ... </option>
+                    <option> VALENCIA </option>
+                    <option> ALICANTE </option>
+                    <option> CASTELLÓN </option>
+                </select>
+                Código postal: *
+                <input type="number" name="codpostal" required>
+                Teléfono móvil: *
+                <input type="tel" name ="telefonomov" required>
+                Teléfono particular: *
+                <input type="tel" name="telpar" required>
+                Dirección e-mail: *
+                <input type="email" name ="diremail" required>
+            </p>
+            <input type="submit" value="Enviar">
         </fieldset>
     </form>
     
